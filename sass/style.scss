@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* style.scss */
+
+
+
+$main-color: #171717;
+$word-color: #f2f9f9;
+$border: #d1202c;
+$font-style: Verdana, Geneva, sans-serif;
+
+
+html, body{
+margin:0;
+padding:0;
+background: url(../images/skewed_print.png);
+}
+
+body{
+font-size:12px;
+font-family:$font-style;
+color:$word-color;
+}
+
+ a, a:visited {
+    text-decoration: none;
+font-size:10px;
+color:$word-color;
+padding: 0 5px 0 5px;
+}
+ 
+a:hover {
+    text-decoration: none;
+background:#FFF;
+color:$main-color;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border-bottom:thin $border solid;
+}
+
+.container {
+    margin-top: 50px;
+background:$main-color;
+-moz-box-shadow: 0 0 15px #000000;
+   -webkit-box-shadow: 0 0 15px #000000;
+   box-shadow: 0 0 15px #000000;
+}
+
+h1, h2, h3{
+font-family: 'Happy Monkey', $font-style ;
+
+
+}
+
+h1{
+font-size:30px;
+margin-bottom:15px;
+}
+
+h2{
+font-size:25px;
+}
+
+h3{
+font-size:20px;
+}
+
+
+ 
+#nav {
+     margin: 15px 0 10px
+	 ul{
+margin-left: -43px;}
+li {
+    display: inline;
+    margin: 0 20px 0 0;
+	}
+	a, a:visited {
+    text-decoration: none;
+font-size:10px;
+color:$word-color;}
+a:hover {
+    text-decoration: none;
+background:#FFF;
+color:$main-color;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border-bottom:thin $border solid;
+
+
+}
+}
+
+#headerImage img {
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.feature img {
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+#footer{
+padding: 20px;
+p {
+width:900px;
+text-align:center;
+}
+}
+
